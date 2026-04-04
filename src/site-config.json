@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Summit Tree Service",
+    "phone": "555-tre-rq7",
+    "category": "tree-service",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "tree-service-mountain-bold",
+      "categoryGroup": "tree-service",
+      "name": "Mountain Bold",
+      "recipeFile": "tree-service/mountain-bold.astro",
+      "colors": {
+        "primary": "#052E16",
+        "primaryDark": "#04200f",
+        "primaryLight": "#c1cbc5",
+        "secondary": "#166534",
+        "accent": "#84CC16",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#052E16",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "tree-service/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Expert Tree Care in Charlotte",
+      "heroSubline": "Certified arborists serving Mecklenburg County since 2011. Specializing in tree health assessments, safe removals, and storm damage response.",
+      "aboutTitle": "Rooted in Charlotte's Community",
+      "aboutText": [
+        "Founded by a third-generation arborist, Summit Tree Service combines traditional techniques with modern ISA standards. Our team grew from one truck servicing South End to a 20-person crew covering five counties.",
+        "We approach every job with an arborist's eye for detail and a neighbor's respect for your property. From historic oaks in Myers Park to new construction sites in Ballantyne, we understand Charlotte's unique tree care needs.",
+        "When not working, our crew volunteers with TreesCharlotte and teaches storm preparedness workshops at local community centers."
+      ],
+      "valueProps": [
+        {
+          "title": "Storm Ready",
+          "description": "24/7 emergency response for hurricane damage and ice storm limb failures across the Piedmont region."
+        },
+        {
+          "title": "Clay Soil Experts",
+          "description": "Specialized root care techniques for Charlotte's dense red clay that suffocates shallow root systems."
+        },
+        {
+          "title": "Historic Tree Preservation",
+          "description": "Disease management plans for century-old oaks and magnolias in Dilworth's historic districts."
+        },
+        {
+          "title": "Construction Protection",
+          "description": "Root barrier installation for new builds in fast-growing areas like Fort Mill and Matthews."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Tree Health Assessment",
+      "ctaSubline": "Schedule same-week consultations for Charlotte properties. Emergency storm services available 24/7."
+    },
+    "services": [
+      {
+        "slug": "tree-removal",
+        "name": "Safe Tree Removal",
+        "shortDescription": "Precision dismantling of hazardous trees with minimal property impact.",
+        "description": "When a historic pecan tree in NoDa split during last summer's derecho, our crane-assisted removal preserved the adjacent artist studios. We specialize in confined space work common in Charlotte's older neighborhoods, where narrow lots and overhead wires demand exacting techniques.\n\nEvery removal begins with root mapping to avoid damaging buried utilities in clay soils. For properties near Freedom Park, we coordinate with the city arborist to comply with heritage tree ordinances. Post-removal, we offer stump grinding with soil amendment to combat Charlotte's pervasive clay compaction.\n\nEmergency removals include temporary bracing for storm-damaged trees threatening structures - a critical service during our unpredictable spring thunderstorm season.",
+        "process": [
+          "Step 1: ISA risk assessment of tree structure and root zone",
+          "Step 2: Crane or rigging plan tailored to property constraints",
+          "Step 3: Sectional dismantling with protective ground mats",
+          "Step 4: Cleanup with branch recycling through local mulch programs"
+        ],
+        "benefits": [
+          "Liability insurance covering up to $2M property damage",
+          "Heritage tree permit assistance",
+          "Storm damage priority scheduling",
+          "Free wood chip delivery for gardeners"
+        ],
+        "faq": [
+          {
+            "question": "How do you protect my lawn during removal?",
+            "answer": "We use 3/4-inch plywood mats to distribute equipment weight, especially important for Charlotte's erosion-prone clay soils. For spring removals when the ground is soft, we'll suggest alternate access points."
+          },
+          {
+            "question": "What happens to the wood?",
+            "answer": "Hardwoods go to local sawmills for lumber, softer species become playground mulch for CMS schools. We never send usable wood to landfills."
+          }
+        ]
+      },
+      {
+        "slug": "tree-pruning",
+        "name": "Structural Pruning",
+        "shortDescription": "Health-focused trimming that respects natural tree form.",
+        "description": "The crepe myrtles along South Tryon Street demonstrate why proper pruning matters - our certified arborists correct butchered 'topping' jobs daily. We employ weight reduction cuts and crown thinning techniques that actually benefit trees in Charlotte's humidity, where dense foliage invites fungal diseases.\n\nFor historic properties in Myers Park, we preserve specimen trees with vista pruning that maintains their grandeur while improving air circulation. Newer developments in Ballantyne receive young tree training cuts to prevent future storm damage. Our team recognizes each neighborhood's architectural character - whether maintaining shade canopies over Dilworth bungalows or sculpting ornamental trees for SouthPark condos.\n\nPost-pruning, we apply organic wound dressings and provide detailed health reports showing before/after canopy density measurements. Clients receive reminders for optimal pruning cycles based on species - every 3 years for oaks, annually for fruit trees.",
+        "process": [
+          "Step 1: Canopy analysis with aerial imaging when needed",
+          "Step 2: Identification of crossing/rubbing branches and weak attachments",
+          "Step 3: Precision cuts following ANSI A300 standards",
+          "Step 4: Disease inspection of pruning wounds"
+        ],
+        "benefits": [
+          "Storm resistance improvements up to 40%",
+          "Free return visits for corrective pruning",
+          "Photosystem health reporting",
+          "Disease prevention sprays available"
+        ],
+        "faq": [
+          {
+            "question": "Why does my HOA require professional pruning?",
+            "answer": "Charlotte-area HOAs mandate ISA certification to prevent tree butchery that lowers property values. Our work meets landscape covenant standards for communities like Providence Plantation."
+          },
+          {
+            "question": "Can pruning help with pollen reduction?",
+            "answer": "Strategic thinning cuts can decrease pollen production in male junipers and oaks by up to 30%, a real benefit for allergy sufferers in pollen-heavy Matthews."
+          }
+        ]
+      },
+      {
+        "slug": "stump-grinding",
+        "name": "Stump Removal",
+        "shortDescription": "Complete below-grade elimination without damaging surrounding landscape.",
+        "description": "That stubborn sweetgum stump ruining your backyard oasis? Our carbide-tipped grinders make quick work of Charlotte's toughest stumps, even those with extensive root systems common in loamy Huntersville soils. We go 12-18 inches below grade - crucial depth for preventing regrowth in our humid climate.\n\nFor properties near watershed areas like Lake Norman, we use containment berms to prevent grindings from entering waterways. The resulting wood chips get recycled as erosion control mulch on your property or donated to community gardens fighting clay soil compaction.\n\nNew construction projects in Fort Mill appreciate our compact equipment that fits between tight lot lines. We'll mark irrigation lines and provide as-built drawings showing exact stump location - critical documentation when installing pools or additions later.",
+        "process": [
+          "Step 1: Underground utility marking (call 811 included)",
+          "Step 2: Debris clearance and root flare exposure",
+          "Step 3: Multi-pass grinding to specified depth",
+          "Step 4: Soil amendment with compost to prevent clay pan"
+        ],
+        "benefits": [
+          "No visible sawdust residue left behind",
+          "Optional root barrier installation",
+          "Same-day service for most residential stumps",
+          "Free estimates with digital measurements"
+        ],
+        "faq": [
+          {
+            "question": "How deep should stumps be ground in Charlotte?",
+            "answer": "Minimum 10 inches to account for our high water table, but we recommend 14+ inches for species like Bradford pears that aggressively resprout from shallow roots."
+          },
+          {
+            "question": "Can I plant a new tree immediately after?",
+            "answer": "We'll test soil pH and recommend amendments - crucial in Concord's alkaline soils. Most clients wait 4-6 weeks for grindings to decompose before replanting."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-services",
+        "name": "Storm Damage Response",
+        "shortDescription": "24/7 triage for hurricane, ice storm, and tornado damage.",
+        "description": "When last April's microburst toppled fifty trees across Myers Park, our crews worked alongside Duke Energy to clear roads first. Charlotte's mix of mature hardwoods and shallow-rooted pines creates unique hazards during storms - we prioritize life-threatening situations while documenting insurance claims.\n\nOur emergency protocol begins with structural stabilization using bracing cables and temporary supports. For historic districts like Dilworth, we employ specialty rigging to protect intact branches during partial removals. The team carries arborist-grade chainsaws and portable lifts to access damage in Charlotte's dense urban canopy.\n\nPost-storm, we provide detailed damage assessments with recommended timelines for follow-up care. This includes root zone injections to combat stress-induced diseases common after major weather events. All emergency work comes with photographic documentation meeting insurance adjuster requirements.",
+        "process": [
+          "Step 1: Immediate hazard evaluation and safety zone creation",
+          "Step 2: Utility hazard mitigation coordination",
+          "Step 3: Load reduction through precision cutting",
+          "Step 4: Structural support installation when salvageable"
+        ],
+        "benefits": [
+          "Direct insurance billing available",
+          "Priority service for elderly/disabled residents",
+          "On-site risk assessment documentation",
+          "Post-storm tree health monitoring"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a tree emergency?",
+            "answer": "Immediate threats like trees on houses, across roads, or leaning on power lines. We triage calls based on danger level - expect faster response than for simple downed limbs."
+          },
+          {
+            "question": "Does homeowners insurance cover removal?",
+            "answer": "Most Charlotte policies cover storm damage removals if the tree was healthy. We provide documentation of pre-existing conditions to support your claim."
+          }
+        ]
+      },
+      {
+        "slug": "tree-planting",
+        "name": "Professional Tree Installation",
+        "shortDescription": "Right tree, right place - tailored to Charlotte soils.",
+        "description": "The failed red maple in your front yard? Probably planted too deep in clay without proper amendments. Our planting protocol starts with soil analysis - we identify ideal native species for Charlotte's challenging conditions. In sandy Gastonia soils, that might mean drought-resistant post oaks. For compacted urban lots in NoDa, columnar varieties that won't interfere with foundations.\n\nWe go beyond basic ball-and-burlap installation with root washing techniques that prevent circling roots - a leading cause of premature decline. Each planting includes mycorrhizal inoculation to help roots penetrate our dense clay, plus a 2-year guarantee covering replacement if the tree fails to establish.\n\nNew construction clients in Fort Mill receive complete tree protection plans meeting municipal landscape requirements. We'll stake trees properly (never with wire in bark) and provide detailed watering guides accounting for Charlotte's variable rainfall.",
+        "process": [
+          "Step 1: Site evaluation including underground utility clearance",
+          "Step 2: Custom soil amendment blend preparation",
+          "Step 3: Bare-root preparation or root ball inspection",
+          "Step 4: Structural pruning at time of planting"
+        ],
+        "benefits": [
+          "2-year establishment guarantee",
+          "Free soil test with every planting",
+          "Native species recommendations",
+          "Post-planting care instructions"
+        ],
+        "faq": [
+          {
+            "question": "What trees thrive best in Charlotte?",
+            "answer": "Drought-tolerant natives like willow oak and American hornbeam outperform imported species. We avoid problematic trees like Bradford pears that split in ice storms."
+          },
+          {
+            "question": "How often should new trees be watered?",
+            "answer": "Deep watering 2-3 times weekly for first six months - more during Matthews' dry autumns. We provide soil moisture meters to prevent overwatering in clay."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Emergency storm damage removal",
+        "text": "When a 60-foot pine crushed our garage during the April hailstorm, Summit had it cleared before the insurance adjuster arrived. Their crew protected our garden beds while working and even saved two damaged dogwoods by cabling them.",
+        "date": "2025-04-12"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Historic oak pruning",
+        "text": "The 100-year-old oak shading our Dilworth porch was dropping dangerous limbs. Summit's arborist explained how weight reduction pruning would help more than topping. Two years later, the tree looks majestic and hasn't lost a single branch in storms.",
+        "date": "2025-03-28"
+      },
+      {
+        "name": "Devon W.",
+        "rating": 5,
+        "service": "Stump grinding",
+        "text": "Five companies refused to tackle the massive sweetgum stump in our backyard near Freedom Park. Summit's compact grinder fit through our narrow gate and they went 18 inches deep - no suckers have appeared all summer.",
+        "date": "2025-06-17"
+      },
+      {
+        "name": "Naomi P.",
+        "rating": 5,
+        "service": "Tree planting",
+        "text": "Our HOA required specific tree species for our Ballantyne front yard. Summit tested the soil, recommended three native options, and planted with proper amendments. Their watering guide saved the trees during last August's drought.",
+        "date": "2025-09-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Construction protection",
+        "text": "Building our addition in Matthews would have destroyed two heritage dogwoods. Summit installed root barriers and supervised the excavation. Two years later, the trees are thriving with no signs of stress.",
+        "date": "2025-01-30"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Disease management",
+        "text": "Our magnolia in Myers Park developed fungal spots. Summit diagnosed it as anthracnose and applied treatments plus soil amendments. They even pruned adjacent trees to improve airflow. The tree fully recovered by next blooming season.",
+        "date": "2025-05-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Charlotte Tree Service | Certified Arborists | Summit Tree Care",
+        "description": "ISA-certified tree care serving Charlotte since 2011. Specializing in safe removals, pruning, storm damage response, and clay soil tree health."
+      },
+      "about": {
+        "title": "About Our Charlotte Tree Care Company | Summit Tree Service",
+        "description": "Meet the local arborists preserving Charlotte's urban forest. Learn about our heritage tree expertise and community involvement."
+      },
+      "services": {
+        "title": "Charlotte Tree Services | Removal, Pruning, Planting | Summit",
+        "description": "Complete tree care solutions for Charlotte homes and businesses. From emergency storm response to preventive maintenance programs."
+      },
+      "contact": {
+        "title": "Contact Charlotte's Tree Experts | Summit Tree Service",
+        "description": "Schedule a free tree health assessment with our certified arborists. Serving Mecklenburg County and surrounding areas."
+      },
+      "reviews": {
+        "title": "Charlotte Tree Service Reviews | Summit Customer Stories",
+        "description": "Read verified customer experiences with our tree care services across Huntersville, Matthews, and greater Charlotte."
+      },
+      "service-areas": {
+        "title": "Charlotte Area Tree Service Locations | Summit Coverage",
+        "description": "Local tree care experts serving Huntersville, Concord, Matthews, Fort Mill, Gastonia and surrounding communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 14,
+      "projectsCompleted": "1200+",
+      "satisfaction": "98%",
+      "teamSize": "22"
+    },
+    "serviceAreas": [
+      {
+        "city": "Huntersville",
+        "slug": "huntersville-nc",
+        "state": "NC",
+        "content": "Summit Tree Service is proud to serve the growing community of Huntersville, NC. With its rapid suburban expansion in the 1990s and 2000s, many homes in Huntersville feature mature trees that require professional care. Our team specializes in tree trimming, removal, and storm damage cleanup to keep your property safe and beautiful. The hot, humid summers in Huntersville can stress trees, making regular maintenance essential for their health and longevity.",
+        "localContext": "Huntersville is known for its 1990s-2000s suburban developments and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Davidson",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Concord",
+        "slug": "concord-nc",
+        "state": "NC",
+        "content": "Concord, NC, is a vibrant city with a mix of 1980s-90s family homes and bustling commercial areas. Summit Tree Service provides expert tree care to maintain the lush greenery that enhances Concord's neighborhoods. From tree pruning to hazardous limb removal, we help homeowners protect their properties from the challenges posed by hot, humid summers. Our team is also experienced in working with local regulations to ensure compliance for tree removal permits.",
+        "localContext": "Concord features 1980s-90s family homes and a thriving community with strong ties to NASCAR.",
+        "nearbyAreas": [
+          "Kannapolis",
+          "Harrisburg",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Matthews",
+        "slug": "matthews-nc",
+        "state": "NC",
+        "content": "Matthews, NC, is a charming town with established suburbs dating back to the 1970s and 1980s. Summit Tree Service is dedicated to preserving the mature trees that give Matthews its character. Our services include tree health assessments, stump grinding, and emergency tree removal after storms. The hot, humid climate here can lead to pest infestations and disease, so proactive tree care is crucial for maintaining healthy landscapes.",
+        "localContext": "Matthews is known for its 1970s-80s established suburbs and small-town feel.",
+        "nearbyAreas": [
+          "Mint Hill",
+          "Stallings",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Fort Mill",
+        "slug": "fort-mill-nc",
+        "state": "NC",
+        "content": "Fort Mill, NC, has seen significant growth with newer planned communities built in the 2000s-2020s. Summit Tree Service helps homeowners in Fort Mill maintain their young and mature trees through expert pruning, fertilization, and disease management. The hot, humid summers can be tough on newly planted trees, so our team provides tailored care to ensure they thrive. We also assist with tree removal for construction or landscaping projects.",
+        "localContext": "Fort Mill is characterized by newer 2000s-2020s planned communities and rapid development.",
+        "nearbyAreas": [
+          "Tega Cay",
+          "Rock Hill",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Gastonia",
+        "slug": "gastonia-nc",
+        "state": "NC",
+        "content": "Gastonia, NC, is a historic city with many working-class homes built in the 1960s and 1970s. Summit Tree Service offers affordable and reliable tree care to keep Gastonia's neighborhoods safe and green. Our services include tree trimming, deadwood removal, and stump grinding. The hot, humid summers here can accelerate tree decay, so regular inspections are key to preventing hazards. We take pride in serving this tight-knit community.",
+        "localContext": "Gastonia is home to 1960s-70s working-class homes and a strong sense of community.",
+        "nearbyAreas": [
+          "Belmont",
+          "Mount Holly",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Cornelius",
+        "slug": "cornelius-nc",
+        "state": "NC",
+        "content": "Cornelius, NC, is a lakeside town with a mix of older and newer homes. Summit Tree Service provides comprehensive tree care to protect the natural beauty of Cornelius. From tree health evaluations to storm damage cleanup, our team ensures your trees remain healthy and safe. The hot, humid summers can weaken trees, making regular maintenance a must for homeowners in this area.",
+        "localContext": "Cornelius offers a blend of older and newer homes, with many properties near Lake Norman.",
+        "nearbyAreas": [
+          "Huntersville",
+          "Davidson",
+          "Mooresville"
+        ]
+      },
+      {
+        "city": "Davidson",
+        "slug": "davidson-nc",
+        "state": "NC",
+        "content": "Davidson, NC, is a picturesque town with a mix of historic and modern homes. Summit Tree Service helps preserve the town's tree-lined streets with expert pruning, removal, and disease management. The hot, humid summers here can stress trees, so our team provides tailored care to keep them thriving. Whether you need routine maintenance or emergency services, we’re here to help.",
+        "localContext": "Davidson is known for its charming downtown and a mix of historic and contemporary architecture.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Huntersville",
+          "Mooresville"
+        ]
+      },
+      {
+        "city": "Mint Hill",
+        "slug": "mint-hill-nc",
+        "state": "NC",
+        "content": "Mint Hill, NC, is a suburban community with a mix of older and newer developments. Summit Tree Service offers professional tree care to keep Mint Hill's landscapes healthy and safe. Our services include tree trimming, stump grinding, and pest control. The hot, humid summers can lead to tree stress, so regular care is essential for maintaining your property's value and beauty.",
+        "localContext": "Mint Hill features a blend of older and newer suburban developments with a small-town vibe.",
+        "nearbyAreas": [
+          "Matthews",
+          "Charlotte",
+          "Stallings"
+        ]
+      },
+      {
+        "city": "Rock Hill",
+        "slug": "rock-hill-nc",
+        "state": "NC",
+        "content": "Rock Hill, NC, is a growing city with a mix of historic and modern neighborhoods. Summit Tree Service provides expert tree care to maintain the greenery that enhances Rock Hill's appeal. From tree pruning to emergency removal, our team ensures your property stays safe and attractive. The hot, humid summers here can be tough on trees, so proactive care is key to their longevity.",
+        "localContext": "Rock Hill is a vibrant city with a mix of historic charm and new developments.",
+        "nearbyAreas": [
+          "Fort Mill",
+          "Tega Cay",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Mooresville",
+        "slug": "mooresville-nc",
+        "state": "NC",
+        "content": "Mooresville, NC, is a bustling town with a mix of residential and commercial areas. Summit Tree Service helps homeowners and businesses maintain their trees with expert care. Our services include trimming, removal, and health assessments. The hot, humid summers can stress trees, so regular maintenance is crucial for preventing hazards and preserving the town's lush landscapes.",
+        "localContext": "Mooresville is known for its lakeside properties and rapid growth in recent years.",
+        "nearbyAreas": [
+          "Davidson",
+          "Cornelius",
+          "Statesville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tree-removal": "/images/service-tree-removal.webp",
+      "tree-pruning": "/images/service-tree-pruning.webp",
+      "stump-grinding": "/images/service-stump-grinding.webp",
+      "emergency-services": "/images/service-emergency-services.webp",
+      "tree-planting": "/images/service-tree-planting.webp"
+    },
+    "servicesResponsive": {
+      "tree-removal": {
+        "src": "/images/service-tree-removal.webp",
+        "srcset": "/images/service-tree-removal-400w.webp 400w, /images/service-tree-removal-800w.webp 800w, /images/service-tree-removal-1200w.webp 1200w, /images/service-tree-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-pruning": {
+        "src": "/images/service-tree-pruning.webp",
+        "srcset": "/images/service-tree-pruning-400w.webp 400w, /images/service-tree-pruning-800w.webp 800w, /images/service-tree-pruning-1200w.webp 1200w, /images/service-tree-pruning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stump-grinding": {
+        "src": "/images/service-stump-grinding.webp",
+        "srcset": "/images/service-stump-grinding-400w.webp 400w, /images/service-stump-grinding-800w.webp 800w, /images/service-stump-grinding-1200w.webp 1200w, /images/service-stump-grinding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-services": {
+        "src": "/images/service-emergency-services.webp",
+        "srcset": "/images/service-emergency-services-400w.webp 400w, /images/service-emergency-services-800w.webp 800w, /images/service-emergency-services-1200w.webp 1200w, /images/service-emergency-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-planting": {
+        "src": "/images/service-tree-planting.webp",
+        "srcset": "/images/service-tree-planting-400w.webp 400w, /images/service-tree-planting-800w.webp 800w, /images/service-tree-planting-1200w.webp 1200w, /images/service-tree-planting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
